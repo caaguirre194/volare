@@ -7,14 +7,6 @@
   margin-right: 10%;
 }
 
-#logro-1 {
-  text-align: left;
-}
-
-img {
-  padding: 0.3em;
-}
-
 .title-about {
   margin-top: 1em;
   padding: 1em;
@@ -36,28 +28,4 @@ img {
   font-family: auto;
   font-weight: 900;
   font-size: 3em;
-}
-
-nb-card {
-  width: 100%;
-  margin: 1em !important;
-  box-shadow: none;
-}
-
-nb-card-header {
-  padding-top: 0;
-  text-align: center;
-  border: none;
-}
-
-nb-card-body {
-  padding: 0 !important;
-  text-align: left!important;
-  font-size: 0.9em;
-}
-
-nb-card-footer {
-  font-size: 0.85em;
-  border-top: 0 !important;
-  padding: 1rem 1rem !important;
 }

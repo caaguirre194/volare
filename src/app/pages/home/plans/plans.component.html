@@ -88,26 +88,86 @@
 <br />
 <br />
 <div class="row align-items-start">
-  <h3 class="color-ca2 title-plans">
-    {{ "PAGES.PLANS.OTHERS" | translate }}
-  </h3>
-  <div *ngFor="let item of plans" class="col col-project">
-    <nb-card
-      [@bounceIn]="bounceIn"
-      size="tiny"
-      class="card-project"
-      (click)="redirectTO(item.link)"
-    >
-      <nb-card-body class="text-center">
-        <img
-          src="{{ item.img }}"
-          alt="Smiley face"
-          height="30"
-          width="30"
-          class="img-project"
-        />
-      </nb-card-body>
-      <nb-card-footer class="text-center">{{ item.title }}</nb-card-footer>
-    </nb-card>
+  <div class="col ml-5">
+    <div class="column_attr clearfix" style="">
+      <img
+        src="assets/img/plans/climbing.png"
+        alt="Smiley face"
+        height="50"
+        width="50"
+        class="m-2"
+      />
+      <h6 class="color-ca3">
+        {{ "PAGES.PLANS.WEB_DEVELOPMENT" | translate }}
+      </h6>
+      <hr class="no_line" style="margin: 0 auto 10px;" />
+      <h3>{{ "PAGES.PLANS.TITLE_3" | translate }}</h3>
+      <hr class="no_line" style="margin: 0 auto 50px;" />
+      <p class="">
+        {{ "PAGES.PLANS.DESCRIPTION_3" | translate }}
+      </p>
+      <hr class="no_line" style="margin: 0 auto 50px;" />
+      <a
+        class="button button_size_2 button_dark button_js flat-button"
+        href="https://comerciosostenible.org/es/noticias/nueva-apuesta-por-la-conservaci%C3%B3n-en-las-plantaciones-de-palma-de-aceite"
+        target="_blank"
+        ><span class="button_label">{{
+          "PAGES.PLANS.READ_MORE" | translate
+        }}</span></a
+      >
+      <br />
+    </div>
+  </div>
+  <div class="col text-center">
+    <img
+      src="assets/img/plans/climbing_img.png"
+      alt="Smiley face"
+      height="393"
+      width="589"
+      class="img-fluid scale-with-grid mt-5"
+    />
+  </div>
+</div>
+<br />
+<br />
+<div class="row align-items-start">
+  <div class="col ml-5">
+    <div class="column_attr clearfix" style="">
+      <img
+        src="assets/img/plans/climbing.png"
+        alt="Smiley face"
+        height="50"
+        width="50"
+        class="m-2"
+      />
+      <h6 class="color-ca3">
+        {{ "PAGES.PLANS.WEB_DEVELOPMENT" | translate }}
+      </h6>
+      <hr class="no_line" style="margin: 0 auto 10px;" />
+      <h3>{{ "PAGES.PLANS.TITLE_4" | translate }}</h3>
+      <hr class="no_line" style="margin: 0 auto 50px;" />
+      <p class="">
+        {{ "PAGES.PLANS.DESCRIPTION_4" | translate }}
+      </p>
+      <hr class="no_line" style="margin: 0 auto 50px;" />
+      <a
+        class="button button_size_2 button_dark button_js flat-button"
+        href="https://comerciosostenible.org/es/noticias/nueva-apuesta-por-la-conservaci%C3%B3n-en-las-plantaciones-de-palma-de-aceite"
+        target="_blank"
+        ><span class="button_label">{{
+          "PAGES.PLANS.READ_MORE" | translate
+        }}</span></a
+      >
+      <br />
+    </div>
+  </div>
+  <div class="col text-center">
+    <img
+      src="assets/img/plans/climbing_img.png"
+      alt="Smiley face"
+      height="393"
+      width="589"
+      class="img-fluid scale-with-grid mt-5"
+    />
   </div>
 </div>
