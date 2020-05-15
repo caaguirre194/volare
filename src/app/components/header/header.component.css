@@ -1,0 +1,49 @@
+#btn-toggle {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+#nav-container {
+  height: auto;
+  background-color: #fff;
+  box-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-link,
+.navbar-brand {
+  cursor: pointer;
+}
+
+.active {
+  border-width: 3px;
+  border-radius: 4px;
+  border-style: hidden hidden solid hidden;
+  border-color: var(--volare-principal) !important;
+}
+
+.active > a {
+  /* color: #1e1e1e!important;*/
+  color: var(--volare-principal) !important;
+}
+
+.custom-select {
+  width: auto;
+  border: none;
+  background-color: #fff;
+  outline: none !important;
+  box-shadow: none;
+}
+
+#img-lenguage {
+  width: 1em;
+  height: 1em;
+  background-image: url("../../../assets/img/flags/4x3/es.svg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  padding: 0.8em;
+  padding-top: 1.6em;
+  margin: 0;
+  float: left;
+}

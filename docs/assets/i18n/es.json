@@ -1,0 +1,92 @@
+{
+  "PAGES": {
+    "INIT": {
+      "HI":"Bienvenido,",
+      "I_AM":"Soy Carlos",
+      "LASTNAME":"Aguirre",
+      "DEVELOPER":"Desarrollador.",
+      "FREELANCER":"Web/Movil/Freelancer",
+      "CONTACT":"Contáctame"
+    },
+    "ABOUT": {
+      "DESCRIPTION":"Vivo en Bogotá, Colombia, soy desarrollador y poseo experiencia en proyectos web y móviles tanto en Front-End como Back-End, además de tener conocimientos en procesos de desarrollo de software desde el análisis de requerimientos en la creación de historias de usuario, modelado de software y base de datos hasta la etapa de desarrollo en metodologías ágiles usando diferentes lenguajes de programación.",
+      "SKILLS":"Habilidades",
+      "WORKFLOW": "Flujo de trabajo",
+      "WORKFLOW_LIST":{
+        "1":{
+          "TITLE":"1. Investigación",
+          "SUB_1":"Construir sobre las necesidades del cliente los requerimientos funcionales y no funcionales.",
+          "SUB_2":"Determinar los métodos para abordar las necesidades y requisitos específicos."
+        },
+        "2":{
+          "TITLE":"2. Diseño",
+          "SUB_1":"Investigación de mercado.",
+          "SUB_2":"Investigación técnica.",
+          "SUB_3":"Diseño de un concepto y prototipo de maqueta."
+        },
+        "3":{
+          "TITLE":"3. Desarrollo",
+          "SUB_1":"Desarrollo del producto utilizando las mejores tecnologías."
+        },
+        "4":{
+          "TITLE":"4. Pruebas",
+          "SUB_1":"Verificación y Validación de producto."
+        }
+      },
+      "HONORS": "Logros",
+      "LETS":"Hagamos algo especial",
+      "OFFICIAL_TITLE":"DataJam - Universidad Nacional",
+      "OFFICIAL_TITLE_1":"Titulo:",
+      "OFFICIAL_WINNER":" Ganador de DATAJAM de datos abiertos 2018",
+      "OFFICIAL_DEVELOPMENT":"Desarrollo:",
+      "OFFICIAL_DEVELOPMENT_DESCRIPTION":"Software encaminado a coordinar mejor la tarea de reciclaje entre las diversas asociaciones de recicladores y los colegios de Bogotá.",
+      "OFFICIAL_ORGANIZERS":"Organizadores:",
+      "OFFICIAL_ORGANIZERS_DESCRIPTION":"Vivelab Bogotá, la Alta Consejería Distrital de TIC y la Unidad Administrativa Especial de Servicios Públicos (UAESP)",
+      "OFFICIAL_URL":"URL Oficial",
+      "OFFICIAL_ARTICLE":"Articulo Oficial:",
+      "OFFICIAL_CONTACT":"Contacto Organizadores:",
+      "OFFICIAL_PHONE":" +57 (300) 568-7569"
+    },
+    "PROJECTS": {
+      "FEATURED":"Casos de Éxito",
+      "OTHERS":"Otros Proyectos",
+      "MOBILE_DEVELOPMENT":"DESARROLLO MÓVIL",
+      "WEB_DEVELOPMENT":"DESARROLLO WEB",
+      "DOWNLOAD":"Descargar",
+      "READ_MORE":"Leer Más",
+      "TITLE_1":"Aplicación móvil para el diagnótico de Dermatitis Atópica.",
+      "DESCRIPTION_1":"Desarrollo de la aplicación “Dermatopic” de Asocolderma (Asociación Colombiana de dermatología y Cirugía Dermatológica), para el manejo y diagnóstico de Dermatitis Atópica mediante escalas de evaluación de la severidad e impacto en la calidad de vida de pacientes. Desarrollada para dispositivos móviles Android y IOS.",
+      "TITLE_2":"Plataforma web para el manejo y monitoreo de ecosistemas.",
+      "DESCRIPTION_2":"Desarrollo Geoespacial de plataforma web “RED OCELOTE” que permite optimizar la información del manejo y monitoreo de los Altos valores de conservación (monitoreo de ecosistemas claves tanto social como ambientalmente), que se encuentran en las inmediaciones de los cultivos de palma. Especialmente en los módulos de Análisis y Administración de usuarios para BioAp (Biología Aplicada S.A.S)."
+    },
+    "CONTACT": {
+      "TITLE":"Contáctame",
+      "EMAIL":"Correo",
+      "SHOW_EMAIL":"caaguirre194@gmail.com",
+      "SHOW_PHONE":"+57 (310) 563-8030",
+      "PHONE":"Teléfono / WhatsApp",
+      "SEND":"Enviar",
+      "NAME":"Nombre",
+      "SUBJECT":"Asunto",
+      "MESSAGE":"Mensaje",
+      "DESCRIPTION":"Estoy interesado en oportunidades independientes. Sin embargo, si tienes alguna solicitud o pregunta, no dudes en ponerte en contacto conmigo mediante el siguiente formulario.",
+      "PERFECT":"Perfecto!",
+      "PERFECT_DESCRIPTION1":"Tu mensaje ha sido enviado correctamente.",
+      "PERFECT_DESCRIPTION2":"Pronto me comunicaré contigo.",
+      "IMPERFECT":"Ups!",
+      "IMPERFECT_DESCRIPTION1":"Tu mensaje NO ha sido enviado correctamente.",
+      "IMPERFECT_DESCRIPTION2":"Por favor valida tus datos nuevamente o intenta comunicarte conmigo por mi correo."
+    }
+  },
+  "COMPONENTS": {
+    "HEADER": {
+      "HOME":"Inicio",
+      "ABOUT":"Acerca de mí",      
+      "PROJECTS":"Proyectos",
+      "CONTACT":"Contáctame"
+    },
+    "FOOTER": {
+      "TEXT":"2020 © Carlos A."
+    }
+  }
+}

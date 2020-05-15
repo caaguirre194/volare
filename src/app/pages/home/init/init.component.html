@@ -1,0 +1,39 @@
+<div id="particles-js"></div>
+<div class="row align-items-start">
+  <div class="content col-lg">
+    <br />
+    <br />
+    <h1 class="title-h1 color-ca2">{{ "PAGES.INIT.HI" | translate }}</h1>
+    <h1 class="title-h1 color-ca2 t1">{{ "PAGES.INIT.I_AM" | translate }}</h1>
+    <h1 class="title-h1 t2 color-ca3">
+      {{ "PAGES.INIT.LASTNAME" | translate }}
+    </h1>
+    <br />
+    <h1 class="title-h1 color-ca2">{{ "PAGES.INIT.DEVELOPER" | translate }}</h1>
+
+    <br />
+    <br />
+    <h5 class="title-h5 color-ca2">
+      {{ "PAGES.INIT.FREELANCER" | translate }}
+    </h5>
+    <button
+      routerLink="/home/contact"
+      type="button"
+      class="btn flat-button animated rubberBand"
+    >
+      {{ "PAGES.INIT.CONTACT" | translate }}
+    </button>
+    <br />
+    <br />
+    <br />
+  </div>
+
+  <div [@fadeIn]="fadeIn" class="content-img col-lg">
+    <img
+      class="scale-with-grid"
+      src="assets/img/init/pc2.png"
+      width="700"
+      height="331.33"
+    />
+  </div>
+</div>

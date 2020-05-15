@@ -1,0 +1,92 @@
+{
+  "PAGES": {
+    "INIT": {
+      "HI":"Hi,",
+      "I_AM":"I'm Carlos",
+      "LASTNAME":"Aguirre",
+      "DEVELOPER":"Developer.",
+      "FREELANCER":"Web/Movil/Freelancer",
+      "CONTACT":"Contact me"
+    },
+    "ABOUT": {
+      "DESCRIPTION":"I’m located in Bogotá, Colombia, I'm a developer and I have experience in web and mobile projects both in Front-End and Back-End, in addition to having knowledge in software development processes from analysis of requirements in the creation of user stories, software's modeling and database to the development stage in agile methodologies using different programming languages.",
+      "SKILLS":"My skills",
+      "WORKFLOW": "Workflow",
+      "WORKFLOW_LIST":{
+        "1":{
+          "TITLE":"1. Research",
+          "SUB_1":"Build on customer needs functional and non-functional requirements.",
+          "SUB_2":"Determine methods to address specific needs and requirements."
+        },
+        "2":{
+          "TITLE":"2. Design",
+          "SUB_1":"Market research.",
+          "SUB_2":"Technical research.",
+          "SUB_3":"Design of a concept and mockup prototype."
+        },
+        "3":{
+          "TITLE":"3. Develop",
+          "SUB_1":"Product development using the best technologies."
+        },
+        "4":{
+          "TITLE":"4. Tests",
+          "SUB_1":"Product verification and validation."
+        }
+      },
+      "HONORS": "Honors",
+      "LETS":"Let's do something special",
+      "OFFICIAL_TITLE":"DataJam - Universidad Nacional",
+      "OFFICIAL_TITLE_1":"Title:",
+      "OFFICIAL_WINNER":" DATAJAM Winner of Open Data 2018",
+      "OFFICIAL_DEVELOPMENT":"Development:",
+      "OFFICIAL_DEVELOPMENT_DESCRIPTION":"Software aimed at better coordinating the recycling task between the various waste picker associations and the schools in Bogotá.",
+      "OFFICIAL_ORGANIZERS":"Organizers:",
+      "OFFICIAL_ORGANIZERS_DESCRIPTION":"Vivelab Bogotá, Alta Consejería Distrital de TIC and Unidad Administrativa Especial de Servicios Públicos (UAESP)",
+      "OFFICIAL_URL":"Official URL",
+      "OFFICIAL_ARTICLE":"Official Article:",
+      "OFFICIAL_CONTACT":"Organizers Contact:",
+      "OFFICIAL_PHONE":" +57 (300) 568-7569"
+    },
+    "PROJECTS": {
+      "FEATURED":"Featured",
+      "OTHERS":"Other Projects",
+      "MOBILE_DEVELOPMENT":"MOBILE APP DEVELOPMENT",
+      "WEB_DEVELOPMENT":"WEB DEVELOPMENT",
+      "DOWNLOAD":"Download",
+      "READ_MORE":"Read More",
+      "TITLE_1":"Mobile app for diagnosis of Atopic Dermatitis.",
+      "DESCRIPTION_1":"Development app “Dermatopic” of Asocolderma (Asociación Colombiana de dermatología y Cirugía Dermatológica), for management and diagnosis of Atopic Dermatitis using scales to assess the severity and impact on the quality of life of patients. Developed for Android and IOS mobile devices.",
+      "TITLE_2":"Web platform for management and monitoring of ecosystems.",
+      "DESCRIPTION_2":"Geospatial development of the “RED OCELOTE” web platform that allows optimizing information on the management and monitoring of the High Conservation Values (monitoring of key ecosystems both socially and environmentally), which are located in the vicinity of palm crops. Especially in the Analysis and User Administration modules for BioAp (Biología Aplicada S.A.S)."
+    },
+    "CONTACT": {
+      "TITLE":"Contact me",
+      "EMAIL":"Email",
+      "SHOW_EMAIL":"caaguirre194@gmail.com",
+      "SHOW_PHONE":"+57 (310) 563-8030",
+      "PHONE":"Phone / WhatsApp",
+      "SEND":"Send",
+      "NAME":"Name",
+      "SUBJECT":"Subject",
+      "MESSAGE":"Message",
+      "DESCRIPTION":"I am interested in freelance opportunities. However, if you have any request or question, don't hesitate to contact me using the form below.",
+      "PERFECT":"Perfect!",
+      "PERFECT_DESCRIPTION1":"Your message has been sent successfully.",
+      "PERFECT_DESCRIPTION2":"I'm going to contact you soon.",
+      "IMPERFECT":"Ups!",
+      "IMPERFECT_DESCRIPTION1":"Your message has NOT been sent correctly.",
+      "IMPERFECT_DESCRIPTION2":"Please validate your information again or try to contact me by email."
+    }
+  },
+  "COMPONENTS": {
+    "HEADER": {
+      "HOME":"Home",
+      "ABOUT":"About me",      
+      "PROJECTS":"Projects",
+      "CONTACT":"Contact me"
+    },
+    "FOOTER": {
+      "TEXT":"2020 © Carlos A."
+    }
+  }
+}

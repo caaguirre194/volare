@@ -1,0 +1,24 @@
+/* Colors*/
+
+.color-ca2 {
+  color: #1e1e1e !important;
+}
+
+.color-ca3 {
+  color: var(--volare-principal) !important;
+}
+
+/* Footer */
+nb-layout-footer {
+  box-shadow: none !important;
+}
+
+nb-layout-footer nav {
+  border: none !important;
+}
+
+/* Header */
+nb-layout-header nav {
+  height: auto !important;
+  border: none !important;
+}

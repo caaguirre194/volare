@@ -1,0 +1,63 @@
+#about-description {
+  text-align: center;
+}
+
+.content-about {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#logro-1 {
+  text-align: left;
+}
+
+img {
+  padding: 0.3em;
+}
+
+.title-about {
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+#description-about {
+  margin-top: 2em;
+  padding: 0 0 0 2em;
+  border-left: 2px solid #333331;
+  text-align: left;
+}
+
+.tags {
+  font-family: auto;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+nb-card {
+  width: 100%;
+  margin: 1em !important;
+  box-shadow: none;
+}
+
+nb-card-header {
+  padding-top: 0;
+  text-align: center;
+  border: none;
+}
+
+nb-card-body {
+  padding: 0 !important;
+  text-align: left!important;
+  font-size: 0.9em;
+}
+
+nb-card-footer {
+  font-size: 0.85em;
+  border-top: 0 !important;
+  padding: 1rem 1rem !important;
+}
