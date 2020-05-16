@@ -35,6 +35,10 @@ hr {
   min-width: 280.3px;
 }
 
+.text-success {
+  padding: 1em;
+}
+
 .flat-button {
   /*position: absolute;*/
   cursor: pointer;
@@ -47,7 +51,9 @@ hr {
   padding: 10px 18px;
   border: 1px solid var(--volare-principal);
   /*margin-left: 12%;*/
-  float: left;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-animation: myanim2 1s 1.8s backwards;
   animation: myanim2 1s 1.8s backwards;
 }
