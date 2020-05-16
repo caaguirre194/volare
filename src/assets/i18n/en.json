@@ -1,89 +1,172 @@
 {
   "PAGES": {
     "INIT": {
-      "HI": "Hi,",
-      "I_AM": "I'm Carlos",
-      "LASTNAME": "Aguirre",
-      "DEVELOPER": "Developer.",
-      "FREELANCER": "Web/Movil/Freelancer",
-      "CONTACT": "Contact me"
+      "HI": "Bienvenido a",
+      "I_AM": " ",
+      "LASTNAME": " Volare Colombia SAS",
+      "DEVELOPER": "",
+      "FREELANCER": "atracciones/turismo/viajes",
+      "CONTACT": "Contáctanos"
     },
     "ABOUT": {
-      "DESCRIPTION": "I’m located in Bogotá, Colombia, I'm a developer and I have experience in web and mobile PLANS both in Front-End and Back-End, in addition to having knowledge in software development processes from analysis of requirements in the creation of user stories, software's modeling and database to the development stage in agile methodologies using different programming languages.",
-      "SKILLS": "My skills",
-      "WORKFLOW": "Workflow",
+      "DESCRIPTION": "Volare Colombia SAS tu confiable y moderna opción online tiene para ti atractivas promociones para que visites las más divertidas atracciones, satisfaciendo gustos y distintos presupuestos del mercado turístico en la ciudad. En VolareColombiaSAS.com puedes comprar y viajar de forma segura, obtener los mejores consejos para tus planes y además, conocer las opiniones de viajeros que han reservado con Volare ",
+      "SKILLS": "Habilidades",
+      "WORKFLOW": "Flujo de trabajo",
       "WORKFLOW_LIST": {
         "1": {
-          "TITLE": "1. Research",
-          "SUB_1": "Build on customer needs functional and non-functional requirements.",
-          "SUB_2": "Determine methods to address specific needs and requirements."
+          "TITLE": "1. Investigación",
+          "SUB_1": "Construir sobre las necesidades del cliente los requerimientos funcionales y no funcionales.",
+          "SUB_2": "Determinar los métodos para abordar las necesidades y requisitos específicos."
         },
         "2": {
-          "TITLE": "2. Design",
-          "SUB_1": "Market research.",
-          "SUB_2": "Technical research.",
-          "SUB_3": "Design of a concept and mockup prototype."
+          "TITLE": "2. Diseño",
+          "SUB_1": "Investigación de mercado.",
+          "SUB_2": "Investigación técnica.",
+          "SUB_3": "Diseño de un concepto y prototipo de maqueta."
         },
         "3": {
-          "TITLE": "3. Develop",
-          "SUB_1": "Product development using the best technologies."
+          "TITLE": "3. Desarrollo",
+          "SUB_1": "Desarrollo del producto utilizando las mejores tecnologías."
         },
         "4": {
-          "TITLE": "4. Tests",
-          "SUB_1": "Product verification and validation."
+          "TITLE": "4. Pruebas",
+          "SUB_1": "Verificación y Validación de producto."
         }
       },
-      "HONORS": "Honors",
-      "LETS": "Let's do something special",
+      "HONORS": "Logros",
+      "LETS": "¡Compruébalo!",
       "OFFICIAL_TITLE": "DataJam - Universidad Nacional",
-      "OFFICIAL_TITLE_1": "Title:",
-      "OFFICIAL_WINNER": " DATAJAM Winner of Open Data 2018",
-      "OFFICIAL_DEVELOPMENT": "Development:",
-      "OFFICIAL_DEVELOPMENT_DESCRIPTION": "Software aimed at better coordinating the recycling task between the various waste picker associations and the schools in Bogotá.",
-      "OFFICIAL_ORGANIZERS": "Organizers:",
-      "OFFICIAL_ORGANIZERS_DESCRIPTION": "Vivelab Bogotá, Alta Consejería Distrital de TIC and Unidad Administrativa Especial de Servicios Públicos (UAESP)",
-      "OFFICIAL_URL": "Official URL",
-      "OFFICIAL_ARTICLE": "Official Article:",
-      "OFFICIAL_CONTACT": "Organizers Contact:",
+      "OFFICIAL_TITLE_1": "Titulo:",
+      "OFFICIAL_WINNER": " Ganador de DATAJAM de datos abiertos 2018",
+      "OFFICIAL_DEVELOPMENT": "Desarrollo:",
+      "OFFICIAL_DEVELOPMENT_DESCRIPTION": "Software encaminado a coordinar mejor la tarea de reciclaje entre las diversas asociaciones de recicladores y los colegios de Bogotá.",
+      "OFFICIAL_ORGANIZERS": "Organizadores:",
+      "OFFICIAL_ORGANIZERS_DESCRIPTION": "Vivelab Bogotá, la Alta Consejería Distrital de TIC y la Unidad Administrativa Especial de Servicios Públicos (UAESP)",
+      "OFFICIAL_URL": "URL Oficial",
+      "OFFICIAL_ARTICLE": "Articulo Oficial:",
+      "OFFICIAL_CONTACT": "Contacto Organizadores:",
       "OFFICIAL_PHONE": " +57 (300) 568-7569"
     },
     "PLANS": {
-      "FEATURED": "Featured",
-      "OTHERS": "Other PLANS",
-      "MOBILE_DEVELOPMENT": "MOBILE APP DEVELOPMENT",
-      "WEB_DEVELOPMENT": "WEB DEVELOPMENT",
-      "DOWNLOAD": "Download",
-      "READ_MORE": "Read More",
-      "TITLE_1": "Mobile app for diagnosis of Atopic Dermatitis.",
-      "DESCRIPTION_1": "Development app “Dermatopic” of Asocolderma (Asociación Colombiana de dermatología y Cirugía Dermatológica), for management and diagnosis of Atopic Dermatitis using scales to assess the severity and impact on the quality of life of patients. Developed for Android and IOS mobile devices.",
-      "TITLE_2": "Web platform for management and monitoring of ecosystems.",
-      "DESCRIPTION_2": "Geospatial development of the “RED OCELOTE” web platform that allows optimizing information on the management and monitoring of the High Conservation Values (monitoring of key ecosystems both socially and environmentally), which are located in the vicinity of palm crops. Especially in the Analysis and User Administration modules for BioAp (Biología Aplicada S.A.S)."
+      "FEATURED": "Planes Disponibles",
+      "OTHERS": "Otros Proyectos",
+      "DOWNLOAD": "Descargar",
+      "PRICE1": "$184.000",
+      "PRICE2": "$200.000",
+      "PRICE3": "$359.000",
+      "PRICE_DESC": "Valor por persona:",
+      "TITLE_1": "Dos dias de Aventura Rafting - Tobia",
+      "SUBTITLE_1": "RAFTING",
+      "DESCRIPTION_1": {
+        "01": {
+          "TITLE": "Primer día",
+          "SUB1": "",
+          "DESC1": "• Transporte Tobia – Bogotá (Salida 6 am)",
+          "SUB2": "",
+          "DESC2": "• Valor ingreso centro vacacional",
+          "SUB3": "• Refrigerio",
+          "DESC3": "",
+          "SUB4": "",
+          "DESC4": "• Tarde de Piscina",
+          "SUB5": "",
+          "DESC5": "• Preparación camping",
+          "SUB6": "• Cena (opción vegetariana)",
+          "DESC6": "",
+          "SUB7": "",
+          "DESC7": "• Fogata con Canelazo y Recreacionista",
+          "SUB8": "",
+          "DESC8": "• Hospedaje en zona de camping (Incluye zona de baños y duchas. No incluye carpa. En hotel resérvalo con tiempo por $40.000 adicionales por noche por persona)."
+        },
+        "02": {
+          "TITLE": "Segundo día",
+          "SUB1": "",
+          "DESC1": "• Seguro o Póliza de viaje",
+          "SUB2": "• Desayuno",
+          "DESC2": "",
+          "SUB3": "",
+          "DESC3": "• Canyoning",
+          "SUB4": "",
+          "DESC4": "• Rafting",
+          "SUB5": "• Almuerzo (variedad en opciones incluyendo menú vegetariano)",
+          "DESC5": "",
+          "SUB6": "",
+          "DESC6": "• Tarde de Piscina y Bar",
+          "SUB7": "",
+          "DESC7": "• Transporte Tobia – Bogotá"
+        }
+      },
+      "TITLE_2": "Dos dias de Aventura Torrentismo - Tobia",
+      "SUBTITLE_2": "TORRENTISMO",
+      "DESCRIPTION_2": {
+        "01": {
+          "TITLE": "Primer día",
+          "SUB1": "",
+          "DESC1": "• Transporte Tobia – Bogotá (Salida 6 am)",
+          "SUB2": "",
+          "DESC2": "• Valor ingreso centro vacacional",
+          "SUB3": "• Refrigerio",
+          "DESC3": "",
+          "SUB4": "",
+          "DESC4": "• Tarde de Piscina",
+          "SUB5": "",
+          "DESC5": "• Preparación camping",
+          "SUB6": "• Cena",
+          "DESC6": "",
+          "SUB7": "",
+          "DESC7": "• Fogata con Canelazo y Recreacionista (Grupos de mínimo 50 Personas)",
+          "SUB8": "",
+          "DESC8": "• Hospedaje en zona de camping (Incluye zona de baños y duchas. No incluye carpa. En hotel resérvalo con tiempo por $40.000 adicionales por noche por persona)."
+        },
+        "02": {
+          "TITLE": "Segundo día",
+          "SUB1": "",
+          "DESC1": "• Seguro o Póliza de viaje",
+          "SUB2": "• Desayuno",
+          "DESC2": "",
+          "SUB3": "",
+          "DESC3": "• Torrentismo (Con Paseo en Tren por Fauna y Flora y Caminata ecológica, según clima)",
+          "SUB4": "• Almuerzo (variedad en opciones incluyendo menú vegetariano)",
+          "DESC4": "",
+          "SUB5": "",
+          "DESC5": "• Rafting",
+          "SUB6": "",
+          "DESC6": "• Tarde de Piscina y Bar",
+          "SUB7": "",
+          "DESC7": "• Transporte Tobia – Bogotá"
+        }
+      },
+      "TITLE_3": "Tres dias de Aventura Extrema - Útica",
+      "SUBTITLE_3": "CAMPING",
+      "DESCRIPTION_3": "",
+      "TITLE_4": "Plan Parejas - La calera",
+      "SUBTITLE_4": "PAREJAS",
+      "DESCRIPTION_4": ""
     },
     "CONTACT": {
-      "TITLE": "Contact me",
-      "EMAIL": "Email",
+      "TITLE": "Contáctanos",
+      "EMAIL": "Correo",
       "SHOW_EMAIL": "volarecolombiasas@gmail.com",
       "SHOW_PHONE": "+57 (350) 594-4092",
-      "PHONE": "Phone / WhatsApp",
-      "SEND": "Send",
-      "NAME": "Name",
-      "SUBJECT": "Subject",
-      "MESSAGE": "Message",
-      "DESCRIPTION": "I am interested in freelance opportunities. However, if you have any request or question, don't hesitate to contact me using the form below.",
-      "PERFECT": "Perfect!",
-      "PERFECT_DESCRIPTION1": "Your message has been sent successfully.",
-      "PERFECT_DESCRIPTION2": "I'm going to contact you soon.",
+      "PHONE": "Teléfono / WhatsApp",
+      "SEND": "Enviar",
+      "NAME": "Nombre",
+      "SUBJECT": "Asunto",
+      "MESSAGE": "Mensaje",
+      "DESCRIPTION": " Para asesoramiento individualizado, guía y consejos para elegir el mejor destino, no dudes en ponerte en contacto con nosotros mediante el siguiente formulario.",
+      "PERFECT": "Perfecto!",
+      "PERFECT_DESCRIPTION1": "Tu mensaje ha sido enviado correctamente.",
+      "PERFECT_DESCRIPTION2": "Pronto nos comunicaremos contigo.",
       "IMPERFECT": "Ups!",
-      "IMPERFECT_DESCRIPTION1": "Your message has NOT been sent correctly.",
-      "IMPERFECT_DESCRIPTION2": "Please validate your information again or try to contact me by email."
+      "IMPERFECT_DESCRIPTION1": "Tu mensaje NO ha sido enviado correctamente.",
+      "IMPERFECT_DESCRIPTION2": "Por favor valida tus datos nuevamente o intenta comunicarte conmigo correo electrónico."
     }
   },
   "COMPONENTS": {
     "HEADER": {
-      "HOME": "Home",
-      "ABOUT": "About me",
-      "PLANS": "Plans",
-      "CONTACT": "Contact me"
+      "HOME": "Inicio",
+      "ABOUT": "Acerca de nosotros",
+      "PLANS": "Planes",
+      "CONTACT": "Contáctanos"
     },
     "FOOTER": {
       "TEXT": "2020 © Volare Colombia SAS"
