@@ -1,29 +1,28 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { ParticlesConfig1 } from '../../../../environments/environment.prod';
-import { trigger, transition, useAnimation } from '@angular/animations';
-import { fadeIn } from 'ng-animate';
+import { Component, OnInit, Output, EventEmitter } from "@angular/core";
+import { ParticlesConfig1 } from "../../../../environments/environment.prod";
+import { trigger, transition, useAnimation } from "@angular/animations";
+import { lightSpeedIn } from "ng-animate";
 
 declare let particlesJS: any;
 
 @Component({
-  selector: 'app-init',
-  templateUrl: './init.component.html',
-  styleUrls: ['./init.component.css'],
+  selector: "app-init",
+  templateUrl: "./init.component.html",
+  styleUrls: ["./init.component.css"],
   animations: [
-    trigger('fadeIn', [transition('* => *', useAnimation(fadeIn))])
-  ]
+    trigger("lightSpeedIn", [transition("* => *", useAnimation(lightSpeedIn))]),
+  ],
 })
 export class InitComponent implements OnInit {
-  fadeIn: any;
+  lightSpeedIn: any;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     this.invokeParticles();
   }
 
   public invokeParticles(): void {
-    particlesJS('particles-js', ParticlesConfig1, function() {});
+    //particlesJS("particles-js", ParticlesConfig1, function () {});
   }
-
 }
