@@ -61,6 +61,14 @@
       "PRICE_DESC2": "Valor por pareja:",
       "TITLE_1": "Dos dias de Aventura Rafting - Tobia",
       "SUBTITLE_1": "RAFTING",
+      "TERM_1": {
+        "01": "• Incluye todos los permisos, implementos y guías necesarios",
+        "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo, o niños menores de 8 años.",
+        "03": "• Se recomienda llevar repelente de mosquitos, bloqueador e hidratación",
+        "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete",
+        "06": "• Los menores de edad deben asistir acompañados por un adulto"
+      },
       "DESCRIPTION_1": {
         "01": {
           "TITLE": "Primer día",
