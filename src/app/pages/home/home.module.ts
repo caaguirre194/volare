@@ -23,6 +23,8 @@ import { AboutComponent } from "./about/about.component";
 import { InitComponent } from "./init/init.component";
 import { TranslateModule } from "@ngx-translate/core";
 import { FormsModule } from "@angular/forms";
+import { YouTubePlayerModule } from "@angular/youtube-player";
+
 @NgModule({
   declarations: [
     HomeComponent,
@@ -40,6 +42,7 @@ import { FormsModule } from "@angular/forms";
     NbLayoutModule,
     NbRouteTabsetModule,
     NbCardModule,
+    YouTubePlayerModule,
     NbInputModule,
     NbPopoverModule,
     NbTooltipModule,

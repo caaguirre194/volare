@@ -5,9 +5,10 @@ import {
   useAnimation,
   state,
   style,
-  animate
+  animate,
 } from "@angular/animations";
 import { zoomIn, swing } from "ng-animate";
+import { urlVideo } from "../../../../environments/environment.prod";
 
 @Component({
   selector: "app-about",
@@ -15,8 +16,8 @@ import { zoomIn, swing } from "ng-animate";
   styleUrls: ["./about.component.css"],
   animations: [
     trigger("zoomIn", [transition("* => *", useAnimation(zoomIn))]),
-    trigger("swing", [transition("* => *", useAnimation(swing))])
-    ]
+    trigger("swing", [transition("* => *", useAnimation(swing))]),
+  ],
 })
 export class AboutComponent implements OnInit {
   zoomIn: any;
@@ -24,5 +25,7 @@ export class AboutComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(urlVideo.link);
+  }
 }

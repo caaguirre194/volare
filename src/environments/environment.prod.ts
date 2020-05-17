@@ -6,6 +6,10 @@ export const portfolioConfig = {
   email: "https://caaguirre-email.herokuapp.com/formulario",
 };
 
+export const urlVideo = {
+  link: "https://www.youtube.com/watch?v=Dx0ATyIBlIU",
+};
+
 export const PROJECTS = [
   {
     title: "Users App",
