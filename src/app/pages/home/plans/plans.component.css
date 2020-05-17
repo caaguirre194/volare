@@ -40,10 +40,14 @@ hr {
 }
 
 .term {
-  font-size: 0.78em;
+  font-size: 0.6em;
   color: #19638b !important;
+  font-weight: 100;
+}
+
+.term-content {
   text-align: left;
-  width: 80%;
+  /* width: 80%;*/
   margin-left: auto;
   margin-right: auto;
 }

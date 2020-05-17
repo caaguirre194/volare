@@ -61,6 +61,7 @@
       "PRICE_DESC2": "Valor por pareja:",
       "TITLE_1": "Dos dias de Aventura Rafting - Tobia",
       "SUBTITLE_1": "RAFTING",
+      "TERMS": "Terminos y condiciones:",
       "TERM_1": {
         "01": "• Incluye todos los permisos, implementos y guías necesarios",
         "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo, o niños menores de 8 años.",
@@ -109,6 +110,14 @@
       },
       "TITLE_2": "Dos dias de Aventura Torrentismo - Tobia",
       "SUBTITLE_2": "TORRENTISMO",
+      "TERM_2": {
+        "01": "• Incluye todos los permisos, implementos y guías necesarios",
+        "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo, o niños menores de 8 años.",
+        "03": "• Se recomienda llevar repelente de mosquitos, bloqueador e hidratación",
+        "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete",
+        "06": "• Los menores de edad deben asistir acompañados por un adulto"
+      },
       "DESCRIPTION_2": {
         "01": {
           "TITLE": "Primer día",
@@ -149,6 +158,14 @@
       },
       "TITLE_3": "Tres dias de Aventura Extrema - Útica",
       "SUBTITLE_3": "CAMPING",
+      "TERM_3": {
+        "01": "• Incluye todos los permisos, implementos y guías necesarios",
+        "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo, o niños menores de 8 años.",
+        "03": "• Se recomienda llevar repelente de mosquitos, bloqueador e hidratación",
+        "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete",
+        "06": "• Los menores de edad deben asistir acompañados por un adulto"
+      },
       "DESCRIPTION_3": {
         "01": {
           "TITLE": "Primer día",
@@ -212,6 +229,24 @@
       },
       "TITLE_4": "Plan Parejas - La calera",
       "SUBTITLE_4": "PAREJAS",
+      "TERM_4_1": {
+        "01": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "02": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete"
+      },
+      "TERM_4_2": {
+        "01": "• Incluye todos los permisos, implementos y guías necesarios",
+        "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo",
+        "03": "• Se recomienda llevar repelente de mosquitos, bloqueador e hidratación",
+        "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete"
+      },
+      "TERM_4_3": {
+        "01": "• Incluye todos los permisos, implementos y guías necesarios",
+        "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo",
+        "03": "• Se recomienda llevar repelente de mosquitos, bloqueador e hidratación",
+        "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete"
+      },
       "DESCRIPTION_4": {
         "01": {
           "TITLE": "Opción #1:",
