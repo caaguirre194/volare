@@ -24,6 +24,8 @@ import { InitComponent } from "./init/init.component";
 import { TranslateModule } from "@ngx-translate/core";
 import { FormsModule } from "@angular/forms";
 import { YouTubePlayerModule } from "@angular/youtube-player";
+import { Plans2Component } from "./plans2/plans2.component";
+import { from } from "rxjs";
 
 @NgModule({
   declarations: [
@@ -32,6 +34,7 @@ import { YouTubePlayerModule } from "@angular/youtube-player";
     PlansComponent,
     AboutComponent,
     InitComponent,
+    Plans2Component,
   ],
   imports: [
     CommonModule,

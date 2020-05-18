@@ -5,6 +5,7 @@ import { ContactComponent } from "./contact/contact.component";
 import { PlansComponent } from "./plans/plans.component";
 import { AboutComponent } from "./about/about.component";
 import { InitComponent } from "./init/init.component";
+import { Plans2Component } from "./plans2/plans2.component";
 
 const routes: Routes = [
   {
@@ -15,6 +16,7 @@ const routes: Routes = [
       { path: "init", component: InitComponent },
       { path: "contact", component: ContactComponent },
       { path: "plans", component: PlansComponent },
+      { path: "plans2", component: Plans2Component },
       { path: "about", component: AboutComponent },
     ],
   },

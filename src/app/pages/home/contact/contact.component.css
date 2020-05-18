@@ -161,6 +161,9 @@ svg#clouds {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-contact {
