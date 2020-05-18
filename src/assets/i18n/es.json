@@ -5,7 +5,7 @@
       "TITLE": " Volare",
       "SUBTITLE": "Colombia SAS",
       "DESCRIPTION": "“ANIMATE A VIAJAR CON NOSOTROS, CONOCERÁS DESTINOS MARAVILLOSOS MIENTRAS TE DIVIERTES PRACTICANDO ALGUNA ACTIVIDAD EXTREMA”",
-      "CONTACT": "Contáctanos"
+      "PLANS": "VER PLANES"
     },
     "ABOUT": {
       "TITLE": "TODO SOBRE NOSOTROS",
@@ -57,6 +57,9 @@
       "PRICE4_1": "$449.000 ",
       "PRICE4_2": "$510.000 ",
       "PRICE4_3": "$630.000",
+      "PRICE5": "$200.000 ",
+      "PRICE6": "$??? ",
+      "PRICE7": "$200.000",
       "PRICE_DESC": "Valor por persona:",
       "PRICE_DESC2": "Valor por pareja:",
       "TITLE_1": "Dos dias de Aventura Rafting - Tobia",
@@ -321,6 +324,91 @@
           "SUB13": "",
           "DESC13": "• Póliza de viaje"
         }
+      },
+      "TITLE_5": "Un dia de Rápel - Suesca",
+      "SUBTITLE_5": "TORRENTISMO",
+      "DESCRIPTION_5": {
+        "01": {
+          "TITLE": "El plan incluye:",
+          "SUB1": "",
+          "DESC1": "• Viaje de más o menos dos horas y media saliendo por la Calle 80. Puede seleccionar su lugar de origen. Hora de salida: 6am",
+          "SUB2": "",
+          "DESC2": "• Al llegar al lugar se practicará Rapel, donde será acompañado por  un profesional que estará al tanto de lo que necesita incluyendo equipo de seguridad. (Arnes, cuerda, guantes)",
+          "SUB3": "",
+          "DESC3": "• Podrás disfrutar de la actividad por 2 horas y media.",
+          "SUB4": "",
+          "DESC4": "• Incluye refrigerio y almuerzo",
+          "SUB5": "",
+          "DESC5": "• Una fruta, bebida fría, un sandwich",
+          "SUB6": "",
+          "DESC6": "• Incluye almuerzo, el menú está sujeto al menú del restaurante (hay opciones vegetarianas y veganas)",
+          "SUB7": "",
+          "DESC7": "• A las 4pm el transporte lo esperará hasta 20 minutos para llevarlo nuevamente al punto que eligió de origen."
+        }
+      },
+      "TERM_5": {
+        "01": "• Incluye todos los permisos, implementos y guías necesarios",
+        "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo, o niños menores de 8 años.",
+        "03": "• Se recomienda llevar repelente de mosquitos, bloqueador e hidratación",
+        "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete",
+        "06": "• Los menores de edad deben asistir acompañados por un adulto"
+      },
+      "TITLE_6": "Un dia de Rafting - Tobia",
+      "SUBTITLE_6": "RAFTING",
+      "DESCRIPTION_6": {
+        "01": {
+          "TITLE": "El plan incluye:",
+          "SUB1": "",
+          "DESC1": "• Recogida desde el lugar de su preferencia a las 7am",
+          "SUB2": "",
+          "DESC2": "• Desayuno tradicional que nos proporcione toda la energía que necesitaremos (Huevos, pan o arepa, jugo natural a elección o café, queso)",
+          "SUB3": "",
+          "DESC3": "• Allí te daremos una instrucción de seguridad, un casco, un remo y un chaleco, durante una hora y media aproximadamente navegaremos por río negro donde sortearemos rápidos Nivel II Y III para los más arriesgados realizaremos 2 saltos al río desde 4 y 8 metros respectivamente.",
+          "SUB4": "",
+          "DESC4": "• Almuerzo. Sujeto al menú del restaurante."
+        }
+      },
+      "TERM_6": {
+        "01": "• Incluye todos los permisos, implementos y guías necesarios",
+        "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo, o niños menores de 8 años.",
+        "03": "• Se recomienda llevar repelente de mosquitos, bloqueador e hidratación",
+        "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete",
+        "06": "• Los menores de edad deben asistir acompañados por un adulto"
+      },
+      "TITLE_7": "Un dia de Cuatrimotos y puente colgante - La Calera",
+      "SUBTITLE_7": "CUATRIMOTO",
+      "DESCRIPTION_7": {
+        "01": {
+          "TITLE": "El plan incluye:",
+          "SUB1": "",
+          "DESC1": "• Transporte desde el lugar que selecciones hasta la Calera a la 1pm",
+          "SUB2": "",
+          "DESC2": "• Recorrido en nuestras cuatrimotos Yamaha Automáticas 125 c.c. en el que percibirás la flora y fauna de este lugar, mientras recorres el 85% de trocha destapada en esta gran ruta diseñada para aquellos amantes de la velocidad, la aventura y los mejores paisajes.",
+          "SUB3": "",
+          "DESC3": "• Seguro contra todo riesgo.",
+          "SUB4": "",
+          "DESC4": "• Recorrido de 1 hora y 15 minutos.",
+          "SUB5": "",
+          "DESC5": "• Elementos de protección.",
+          "SUB6": "",
+          "DESC6": "• Equipos y guías certificados.",
+          "SUB7": "",
+          "DESC7": "• Póliza de seguros contra accidentes (válida por un día).",
+          "SUB8": "",
+          "DESC8": "• Refrigerio, variedad a escoger, hay opciones vegetarianas.",
+          "SUB9": "",
+          "DESC9": "• Transporte hacía punto de destino a elección  en bogota a las 5:30pm"
+        }
+      },
+      "TERM_7": {
+        "01": "• Incluye todos los permisos, implementos y guías necesarios",
+        "02": "• No apto para mujeres embarazadas, personas con dolor de espalda, personas que sufran de vértigo, o niños menores de 8 años.",
+        "03": "• Se recomienda llevar repelente de mosquitos, bloqueador e hidratación",
+        "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
+        "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete",
+        "06": "• Los menores de edad deben asistir acompañados por un adulto"
       }
     },
     "CONTACT": {
@@ -346,7 +434,8 @@
     "HEADER": {
       "HOME": "INICIO",
       "ABOUT": "ACERCA DE NOSOTROS",
-      "PLANS": "PLANES",
+      "PLANS": "EN PAREJA",
+      "PLANS2": "ACTIVIDADES EXTREMAS",
       "CONTACT": "CONTÁCTANOS"
     },
     "FOOTER": {
