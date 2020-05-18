@@ -2,14 +2,11 @@
   background-color: #fff;
 }
 
-app-header {
+app-header,
+app-footer {
   width: 100%;
 }
 
-nb-layout-header {
-  background-color: var(--volare-header) !important;
-}
-
-nb-layout-column {
-  background-color: var(--volare-white) !important;
+#content {
+  min-height: calc(100vh);
 }

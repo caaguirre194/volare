@@ -1,7 +1,7 @@
-#content-nav,
-#nav-container {
+#content-nav {
   background-color: var(--volare-header) !important;
   background: var(--volare-header) !important;
+  padding: 20px;
 }
 
 #btn-toggle {
@@ -11,7 +11,7 @@
 
 #nav-container {
   height: auto;
-  background-color: #fff;
+  background-color: var(--volare-header) !important;
   box-shadow: none;
   padding-top: 0;
   padding-bottom: 0;

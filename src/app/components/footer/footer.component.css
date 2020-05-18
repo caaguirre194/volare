@@ -1,0 +1,6 @@
+* {
+  width: 100% !important;
+  padding: 20px !important;
+  background-color: var(--volare-footer);
+  text-align: center;
+}
