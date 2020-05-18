@@ -22,10 +22,13 @@ import { urlVideo } from "../../../../environments/environment.prod";
 export class AboutComponent implements OnInit {
   zoomIn: any;
   swing: any;
+  wid;
+  hei;
 
   constructor() {}
 
   ngOnInit() {
-    console.log(urlVideo.link);
+    this.wid = document.getElementById("content-video").offsetWidth;
+    this.hei = this.wid;
   }
 }
