@@ -1,10 +1,15 @@
-.content{
-    background-color: #fff;
+.content {
+  background-color: #fff;
 }
 
-app-header{
-    width: 100%;
+app-header {
+  width: 100%;
 }
 
+nb-layout-header {
+  background-color: var(--volare-header) !important;
+}
 
-
+nb-layout-column {
+  background-color: var(--volare-white) !important;
+}

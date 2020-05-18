@@ -1,82 +1,84 @@
-<nav id="nav-container" class="navbar navbar-expand-lg navbar-light w-100">
-  <a class="navbar-brand" routerLink="/home/init">
-    <img
-      src="assets/img/brand/logo.png"
-      width="100"
-      height="30"
-      class="d-inline-block align-top"
-      alt=""
-      id="img_logo"
-    />
-  </a>
-  <button
-    id="btn-toggle"
-    class="navbar-toggler ml-auto"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarNav"
-    aria-controls="navbarNav"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav" role="tabcard">
-    <ul id="ul-list" class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a
-          class="nav-link color-ca2 font-weight-bold"
-          routerLink="/home/init"
-          routerLinkActive="active"
-        >
-          {{ "COMPONENTS.HEADER.HOME" | translate }}</a
-        >
-      </li>
+<div id="content-nav">
+  <nav id="nav-container" class="navbar navbar-expand-lg navbar-light w-100">
+    <a class="navbar-brand" routerLink="/home/init">
+      <img
+        src="assets/img/brand/logo.png"
+        width="100"
+        height="30"
+        class="d-inline-block align-top"
+        alt=""
+        id="img_logo"
+      />
+    </a>
+    <button
+      id="btn-toggle"
+      class="navbar-toggler ml-auto"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" role="tabcard">
+      <ul id="ul-list" class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link color-white font-weight-bold"
+            routerLink="/home/init"
+            routerLinkActive="active"
+          >
+            {{ "COMPONENTS.HEADER.HOME" | translate }}</a
+          >
+        </li>
 
-      <li class="nav-item">
-        <a
-          class="nav-link color-ca2 font-weight-bold"
-          routerLink="/home/about"
-          routerLinkActive="active"
-        >
-          {{ "COMPONENTS.HEADER.ABOUT" | translate }}</a
-        >
-      </li>
+        <li class="nav-item">
+          <a
+            class="nav-link color-white font-weight-bold"
+            routerLink="/home/about"
+            routerLinkActive="active"
+          >
+            {{ "COMPONENTS.HEADER.ABOUT" | translate }}</a
+          >
+        </li>
 
-      <li class="nav-item">
-        <a
-          class="nav-link color-ca2 font-weight-bold"
-          routerLink="/home/plans"
-          routerLinkActive="active"
-        >
-          {{ "COMPONENTS.HEADER.PLANS" | translate }}</a
-        >
-      </li>
+        <li class="nav-item">
+          <a
+            class="nav-link color-white font-weight-bold"
+            routerLink="/home/plans"
+            routerLinkActive="active"
+          >
+            {{ "COMPONENTS.HEADER.PLANS" | translate }}</a
+          >
+        </li>
 
-      <li class="nav-item">
-        <a
-          class="nav-link color-ca2 font-weight-bold"
-          routerLink="/home/contact"
-          routerLinkActive="active"
-        >
-          {{ "COMPONENTS.HEADER.CONTACT" | translate }}</a
-        >
-      </li>
+        <li class="nav-item">
+          <a
+            class="nav-link color-white font-weight-bold"
+            routerLink="/home/contact"
+            routerLinkActive="active"
+          >
+            {{ "COMPONENTS.HEADER.CONTACT" | translate }}</a
+          >
+        </li>
 
-      <li class="nav-item">
-        <div id="img-lenguage"></div>
-        <select
-          class="float-left custom-select color-ca2 font-weight-bold"
-          (change)="onChange($event.target.value)"
-        >
-          <option value="es" class="">
-            Es
-          </option>
-          <option value="en" class="">
-            En
-          </option>
-        </select>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <!--<li class="nav-item">
+          <div id="img-lenguage"></div>
+          <select
+            class="float-left custom-select color-white font-weight-bold"
+            (change)="onChange($event.target.value)"
+          >
+            <option value="es" class="">
+              Es
+            </option>
+            <option value="en" class="">
+              En
+            </option>
+          </select>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+</div>

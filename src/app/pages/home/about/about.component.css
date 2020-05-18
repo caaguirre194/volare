@@ -18,10 +18,10 @@
 }
 
 #description-about {
-  margin-top: 2em;
-  padding: 0 0 0 2em;
-  border-left: 2px solid #333331;
-  text-align: left;
+  /*font-family: "font-family: 'leelUl'";*/
+  color: #8f9bb3;
+  padding: 2em;
+  font-size: 1.2em;
 }
 
 .tags {

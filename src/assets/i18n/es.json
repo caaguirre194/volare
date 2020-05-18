@@ -4,11 +4,11 @@
       "HI": "Bienvenido a",
       "I_AM": " ",
       "LASTNAME": " Volare Colombia SAS",
-      "DEVELOPER": "",
-      "FREELANCER": "atracciones/turismo/viajes",
+      "TEXT": "“ANIMATE A VIAJAR CON NOSOTROS, CONOCERÁS DESTINOS MARAVILLOSOS MIENTRAS TE DIVIERTES PRACTICANDO ALGUNA ACTIVIDAD EXTREMA”",
       "CONTACT": "Contáctanos"
     },
     "ABOUT": {
+      "TITLE": "TODO SOBRE NOSOTROS",
       "DESCRIPTION": "Volare Colombia SAS tu confiable y moderna opción online tiene para ti atractivas promociones para que visites las más divertidas atracciones, satisfaciendo gustos y distintos presupuestos del mercado turístico en la ciudad. En VolareColombiaSAS puedes comprar y viajar de forma segura, obtener los mejores consejos para tus planes y además, conocer las opiniones de viajeros que han reservado con Volare ",
       "SKILLS": "Habilidades",
       "WORKFLOW": "Flujo de trabajo",
@@ -344,10 +344,10 @@
   },
   "COMPONENTS": {
     "HEADER": {
-      "HOME": "Inicio",
-      "ABOUT": "Acerca de nosotros",
-      "PLANS": "Planes",
-      "CONTACT": "Contáctanos"
+      "HOME": "INICIO",
+      "ABOUT": "ACERCA DE NOSOTROS",
+      "PLANS": "PLANES",
+      "CONTACT": "CONTÁCTANOS"
     },
     "FOOTER": {
       "TEXT": "2020 © Volare Colombia SAS"

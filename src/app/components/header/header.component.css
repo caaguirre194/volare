@@ -1,3 +1,9 @@
+#content-nav,
+#nav-container {
+  background-color: var(--volare-header) !important;
+  background: var(--volare-header) !important;
+}
+
 #btn-toggle {
   background-color: #fff;
   border-color: #fff;
@@ -14,6 +20,10 @@
 .nav-link,
 .navbar-brand {
   cursor: pointer;
+}
+
+.color-white {
+  color: var(--volare-white) !important;
 }
 
 .active {
