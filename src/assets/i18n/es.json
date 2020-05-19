@@ -61,8 +61,12 @@
       "PRICE6": "$200.000",
       "PRICE7": "$200.000",
       "PRICE8": "$500.000",
+      "PRICE9": "$600.000",
+      "PRICE10": "$900.000",
       "PRICE_DESC": "Valor por persona:",
       "PRICE_DESC2": "Valor por pareja:",
+      "PRICE_DESC3": "Valor 4 personas:",
+      "PRICE_DESC4": "Valor 6 personas:",
       "TITLE_1": "Dos dias de Aventura Rafting - Tobia",
       "SUBTITLE_1": "RAFTING",
       "TERMS": "Terminos y condiciones:",
@@ -231,7 +235,7 @@
           "DESC7": "• Transporte Útica – Bogotá (Regreso 5pm)"
         }
       },
-      "TITLE_4": "Plan Parejas - La calera",
+      "TITLE_4": "Plan Parejas - La Calera",
       "SUBTITLE_4": "PAREJAS",
       "TERM_4_1": {
         "01": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
@@ -411,7 +415,7 @@
         "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete",
         "06": "• Los menores de edad deben asistir acompañados por un adulto"
       },
-      "TITLE_8": "Un dia de Cuatrimotos y puente colgante - La Calera",
+      "TITLE_8": "Plan “EXTREMANTICO” - Villa de leyva",
       "SUBTITLE_8": "CUATRIMOTO",
       "DESCRIPTION_8": {
         "01": {
@@ -445,6 +449,67 @@
           "DESC5": "• Refrigerio",
           "SUB6": "",
           "DESC6": "• Regreso a destino (6pm)"
+        }
+      },
+      "TITLE_9": "Plan “Acampados para 4 o 6 personas” - Suesca",
+      "SUBTITLE_9": "CAMPING",
+      "DESCRIPTION_9": {
+        "01": {
+          "TITLE": "Primer Día:",
+          "SUB1": "",
+          "DESC1": "• Recogida en el punto pactado (6am)",
+          "SUB2": "",
+          "DESC2": "• Llegada al sitio de aventura (9am)",
+          "SUB3": "",
+          "DESC3": "• Refrigerio",
+          "SUB4": "",
+          "DESC4": "• Suescalada",
+          "SUB5": "",
+          "DESC5": "• Almuerzo (variedad en opciones incluidas menú vegetariano)",
+          "SUB6": "",
+          "DESC6": "• Catapulta Humana",
+          "SUB7": "",
+          "DESC7": "• Acampada (Disponibilidad de Snacks y Bar)"
+        },
+        "02": {
+          "TITLE": "Segundo Día:",
+          "SUB1": "",
+          "DESC1": "• Desayuno",
+          "SUB2": "",
+          "DESC2": "• Suesca OffRoad (Viaje en pequeños carros de carreras)",
+          "SUB3": "",
+          "DESC3": "• Almuerzo",
+          "SUB4": "",
+          "DESC4": "• Caminata ecológica",
+          "SUB5": "",
+          "DESC5": "• Refrigerio",
+          "SUB6": "",
+          "DESC6": "• Regreso a destino (6pm)"
+        }
+      },
+      "TITLE_10": "Un dia de “Viaje interior” - Nemocon",
+      "SUBTITLE_10": "RECORRIDO",
+      "DESCRIPTION_10": {
+        "01": {
+          "TITLE": "El plan incluye:",
+          "SUB1": "",
+          "DESC1": "• Recogida en el punto pactado (6am)",
+          "SUB2": "",
+          "DESC2": "• Llegada al sitio (9am)",
+          "SUB3": "",
+          "DESC3": "• Refrigerio",
+          "SUB4": "",
+          "DESC4": "• Primera parte recorrido por las minas de sal (Encuentro interior)",
+          "SUB5": "",
+          "DESC5": "• Almuerzo (variedad en opciones incluidas menú vegetariano)",
+          "SUB6": "",
+          "DESC6": "• Segunda parte (dejar atrás lo que no me sirve como persona)",
+          "SUB7": "",
+          "DESC7": "• Refrigerio",
+          "SUB8": "",
+          "DESC8": "• Tercera parte Recorrido (Energia nueva",
+          "SUB9": "",
+          "DESC9": "• Regreso a casa"
         }
       }
     },
