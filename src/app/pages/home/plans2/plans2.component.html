@@ -110,10 +110,19 @@
     </p>
     <p
       class="button button_size_2 button_dark button_js flat-button"
-      routerLink="/home/contact"
+      data-toggle="modal"
+      data-target="#exampleModal"
       target="_blank"
     >
-      <span class="button_label">{{ "PAGES.PLANS.PRICE1" | translate }}</span>
+      <span class="button_label"
+        >{{ "PAGES.PLANS.PRICE1" | translate }}
+        <img
+          src="assets/img/plans/cart.png"
+          alt="Smiley face"
+          height="30"
+          width="30"
+          class="img-fluid"
+      /></span>
     </p>
     <div class="term-content">
       <p class="mb-0 term font-weight-bold">
@@ -249,10 +258,19 @@
     </p>
     <p
       class="button button_size_2 button_dark button_js flat-button"
-      routerLink="/home/contact"
+      data-toggle="modal"
+      data-target="#exampleModal"
       target="_blank"
     >
-      <span class="button_label">{{ "PAGES.PLANS.PRICE2" | translate }}</span>
+      <span class="button_label"
+        >{{ "PAGES.PLANS.PRICE2" | translate }}
+        <img
+          src="assets/img/plans/cart.png"
+          alt="Smiley face"
+          height="30"
+          width="30"
+          class="img-fluid"
+      /></span>
     </p>
     <div class="term-content">
       <p class="mb-0 term font-weight-bold">
@@ -443,10 +461,19 @@
     </p>
     <p
       class="button button_size_2 button_dark button_js flat-button"
-      routerLink="/home/contact"
+      data-toggle="modal"
+      data-target="#exampleModal"
       target="_blank"
     >
-      <span class="button_label">{{ "PAGES.PLANS.PRICE3" | translate }}</span>
+      <span class="button_label"
+        >{{ "PAGES.PLANS.PRICE3" | translate }}
+        <img
+          src="assets/img/plans/cart.png"
+          alt="Smiley face"
+          height="30"
+          width="30"
+          class="img-fluid"
+      /></span>
     </p>
     <div class="term-content">
       <p class="mb-0 term font-weight-bold">
@@ -532,10 +559,19 @@
       </p>
       <p
         class="button button_size_2 button_dark button_js flat-button"
-        routerLink="/home/contact"
+        data-toggle="modal"
+        data-target="#exampleModal"
         target="_blank"
       >
-        <span class="button_label">{{ "PAGES.PLANS.PRICE5" | translate }}</span>
+        <span class="button_label"
+          >{{ "PAGES.PLANS.PRICE5" | translate }}
+          <img
+            src="assets/img/plans/cart.png"
+            alt="Smiley face"
+            height="30"
+            width="30"
+            class="img-fluid"
+        /></span>
       </p>
       <div class="term-content">
         <p class="mb-0 term font-weight-bold">
@@ -619,10 +655,19 @@
       </p>
       <p
         class="button button_size_2 button_dark button_js flat-button"
-        routerLink="/home/contact"
+        data-toggle="modal"
+        data-target="#exampleModal"
         target="_blank"
       >
-        <span class="button_label">{{ "PAGES.PLANS.PRICE6" | translate }}</span>
+        <span class="button_label"
+          >{{ "PAGES.PLANS.PRICE6" | translate }}
+          <img
+            src="assets/img/plans/cart.png"
+            alt="Smiley face"
+            height="30"
+            width="30"
+            class="img-fluid"
+        /></span>
       </p>
       <div class="term-content">
         <p class="mb-0 term font-weight-bold">
@@ -706,10 +751,19 @@
       </p>
       <p
         class="button button_size_2 button_dark button_js flat-button"
-        routerLink="/home/contact"
+        data-toggle="modal"
+        data-target="#exampleModal"
         target="_blank"
       >
-        <span class="button_label">{{ "PAGES.PLANS.PRICE7" | translate }}</span>
+        <span class="button_label"
+          >{{ "PAGES.PLANS.PRICE7" | translate }}
+          <img
+            src="assets/img/plans/cart.png"
+            alt="Smiley face"
+            height="30"
+            width="30"
+            class="img-fluid"
+        /></span>
       </p>
       <div class="term-content">
         <p class="mb-0 term font-weight-bold">
@@ -744,5 +798,81 @@
       width="589"
       class="img-fluid scale-with-grid mt-5"
     />
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          {{ "COMPONENTS.PAY.TITLE" | translate }}
+        </h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="{{ 'PAGES.CONTACT.NAME' | translate }}"
+            aria-label="Nombre"
+            id="input-name"
+            aria-describedby="basic-addon2"
+          />
+          <input
+            type="email"
+            class="form-control"
+            placeholder="{{ 'PAGES.CONTACT.EMAIL' | translate }}"
+            aria-label="Correo"
+            id="input-email"
+            aria-describedby="basic-addon2"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="{{ 'COMPONENTS.PAY.ID' | translate }}"
+            aria-label="Asunto"
+            id="input-issue"
+            aria-describedby="basic-addon2"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="number"
+            class="form-control"
+            placeholder="{{ 'COMPONENTS.PAY.PHONE' | translate }}"
+            aria-label="Telefono"
+            id="input-phone"
+            aria-describedby="basic-addon2"
+          />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          {{ "COMPONENTS.PAY.CANCEL" | translate }}
+        </button>
+        <button type="button" class="btn btn-success">
+          {{ "COMPONENTS.PAY.CONFIRM" | translate }}
+        </button>
+      </div>
+    </div>
   </div>
 </div>

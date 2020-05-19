@@ -58,8 +58,9 @@
       "PRICE4_2": "$510.000 ",
       "PRICE4_3": "$630.000",
       "PRICE5": "$200.000 ",
-      "PRICE6": "$??? ",
+      "PRICE6": "$200.000",
       "PRICE7": "$200.000",
+      "PRICE8": "$500.000",
       "PRICE_DESC": "Valor por persona:",
       "PRICE_DESC2": "Valor por pareja:",
       "TITLE_1": "Dos dias de Aventura Rafting - Tobia",
@@ -409,6 +410,42 @@
         "04": "• Requiere cita previa con 48 horas de anticipación al correo, indicando nombre, cédula y número de teléfono",
         "05": "• Las cancelaciones o reprogramaciones deben ser con 48 horas de anticipación o se pierde el paquete",
         "06": "• Los menores de edad deben asistir acompañados por un adulto"
+      },
+      "TITLE_8": "Un dia de Cuatrimotos y puente colgante - La Calera",
+      "SUBTITLE_8": "CUATRIMOTO",
+      "DESCRIPTION_8": {
+        "01": {
+          "TITLE": "Primer Día:",
+          "SUB1": "",
+          "DESC1": "• Recogida en el punto pactado (6am)",
+          "SUB2": "",
+          "DESC2": "• Llegada al sitio de aventura (10am)",
+          "SUB3": "",
+          "DESC3": "• Refrigerio",
+          "SUB4": "",
+          "DESC4": "• Carrera en cuatrimoto por el desierto",
+          "SUB5": "",
+          "DESC5": "• Almuerzo (variedad en opciones incluidas menú vegetariano)",
+          "SUB6": "",
+          "DESC6": "• Viaje en globo aerostático",
+          "SUB7": "",
+          "DESC7": "• Cena romantica con petalos y copa de vino"
+        },
+        "02": {
+          "TITLE": "Segundo Día:",
+          "SUB1": "",
+          "DESC1": "• Desayuno al cuarto",
+          "SUB2": "",
+          "DESC2": "• Masaje con chocolaterapia",
+          "SUB3": "",
+          "DESC3": "• Almuerzo",
+          "SUB4": "",
+          "DESC4": "• Jacuzzi ambientado (Opción una botella de vino)",
+          "SUB5": "",
+          "DESC5": "• Refrigerio",
+          "SUB6": "",
+          "DESC6": "• Regreso a destino (6pm)"
+        }
       }
     },
     "CONTACT": {
@@ -427,7 +464,8 @@
       "PERFECT_DESCRIPTION2": "Pronto nos comunicaremos contigo.",
       "IMPERFECT": "Ups!",
       "IMPERFECT_DESCRIPTION1": "Tu mensaje NO ha sido enviado correctamente.",
-      "IMPERFECT_DESCRIPTION2": "Por favor valida tus datos nuevamente o intenta comunicarte conmigo correo electrónico."
+      "IMPERFECT_DESCRIPTION2": "Por favor valida tus datos nuevamente o intenta comunicarte conmigo correo electrónico.",
+      "METHODS": "NUESTROS MEDIOS DE PAGO"
     }
   },
   "COMPONENTS": {
@@ -440,6 +478,13 @@
     },
     "FOOTER": {
       "TEXT": "2020 © Volare Colombia SAS"
+    },
+    "PAY": {
+      "TITLE": "DATOS DEL COMPRADOR",
+      "CANCEL": "Cancelar",
+      "CONFIRM": "Confirmar",
+      "ID": "Identificación",
+      "PHONE": "Teléfono"
     }
   }
 }

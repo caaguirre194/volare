@@ -4,3 +4,22 @@
   background-color: var(--volare-footer);
   text-align: center;
 }
+
+#content-pago {
+  height: 10%;
+  width: 90% !important;
+  margin-left: 2em;
+}
+
+#title-methods {
+  text-align: center;
+  color: #fff;
+  padding: 0 !important;
+}
+
+.img-pago {
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
