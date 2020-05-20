@@ -17,11 +17,41 @@ export class ContactComponent implements OnInit {
   fadeInLeft: any;
   loading = false;
   message: Message;
+  chats: any[] = [
+    {
+      status: "success",
+      title: "Chat Volare Colombia",
+      messages: [
+        {
+          text: "Hola, quieres conocer más de nuestros planes?",
+          date: new Date(),
+          reply: false,
+          user: {
+            name: "Volare",
+            avatar: "assets/img/brand/sygnet.png",
+          },
+        },
+      ],
+    },
+  ];
 
   constructor(public messageService: MessageServiceService) {}
 
   ngOnInit() {
     this.message = new Message();
+  }
+
+  sendMessage(messages, event) {
+    messages.push({
+      text: event.message,
+      date: new Date(),
+      reply: true,
+      user: {
+        name: "Invitado",
+        avatar:
+          "https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif",
+      },
+    });
   }
 
   resetForm() {

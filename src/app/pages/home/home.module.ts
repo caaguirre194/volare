@@ -7,6 +7,7 @@ import {
   NbSidebarModule,
   NbLayoutModule,
   NbRouteTabsetModule,
+  NbChatModule,
 } from "@nebular/theme";
 import {
   NbCardModule,
@@ -49,6 +50,7 @@ import { from } from "rxjs";
     NbInputModule,
     NbPopoverModule,
     NbTooltipModule,
+    NbChatModule,
     NbSpinnerModule,
     ComponentsModule,
     TranslateModule,

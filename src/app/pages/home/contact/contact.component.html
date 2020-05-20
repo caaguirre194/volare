@@ -1,300 +1,328 @@
-<div class="row align-items-start">
-  <div [@fadeInLeft]="fadeInLeft" class="content-form col">
-    <nb-card
-      [nbSpinner]="loading"
-      nbSpinnerStatus="success"
-      nbSpinnerSize="large"
-      nbSpinnerMessage=""
-    >
-      <nb-card-header id="title-form">{{
-        "PAGES.CONTACT.TITLE" | translate
-      }}</nb-card-header>
-      <nb-card-body>
-        <p id="text-form">
-          {{ "PAGES.CONTACT.DESCRIPTION" | translate }}
-        </p>
-        <div class="input-group mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="{{ 'PAGES.CONTACT.NAME' | translate }}"
-            aria-label="Nombre"
-            id="input-name"
-            [(ngModel)]="message.name"
-            aria-describedby="basic-addon2"
-          />
-          <input
-            type="email"
-            class="form-control"
-            placeholder="{{ 'PAGES.CONTACT.EMAIL' | translate }}"
-            aria-label="Correo"
-            id="input-email"
-            [(ngModel)]="message.email"
-            aria-describedby="basic-addon2"
-          />
-        </div>
-        <div class="input-group mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="{{ 'PAGES.CONTACT.SUBJECT' | translate }}"
-            aria-label="Asunto"
-            id="input-issue"
-            [(ngModel)]="message.issue"
-            aria-describedby="basic-addon2"
-          />
-        </div>
-        <div class="input-group mb-3">
-          <textarea
-            type="text-area"
-            class="form-control"
-            placeholder="{{ 'PAGES.CONTACT.MESSAGE' | translate }}"
-            aria-label="Mensaje"
-            id="input-message"
-            [(ngModel)]="message.message"
-            aria-describedby="basic-addon2"
-          ></textarea>
-        </div>
-      </nb-card-body>
-      <nb-card-footer
-        ><button
-          (click)="sendEmail()"
-          type="button"
-          class="btn flat-button animated rubberBand"
+<nb-layout>
+  <nb-layout-column class="content">
+    <div class="row align-items-start">
+      <div [@fadeInLeft]="fadeInLeft" class="content-form col">
+        <nb-card
+          [nbSpinner]="loading"
+          nbSpinnerStatus="success"
+          nbSpinnerSize="large"
+          nbSpinnerMessage=""
         >
-          {{ "PAGES.CONTACT.SEND" | translate }}
-        </button></nb-card-footer
-      >
-    </nb-card>
-    <div
-      class="alert alert-success"
-      id="alert-success"
-      role="alert"
-      style="display: none;"
-    >
-      <h4 class="alert-heading">{{ "PAGES.CONTACT.PERFECT" | translate }}</h4>
-      <p>
-        {{ "PAGES.CONTACT.PERFECT_DESCRIPTION1" | translate }}
-      </p>
-      <hr />
-      <p class="mb-0">
-        {{ "PAGES.CONTACT.PERFECT_DESCRIPTION2" | translate }}
-      </p>
-    </div>
-    <div
-      class="alert alert-danger"
-      id="alert-danger"
-      role="alert"
-      style="display: none;"
-    >
-      <h4 class="alert-heading">{{ "PAGES.CONTACT.IMPERFECT" | translate }}</h4>
-      <p>
-        {{ "PAGES.CONTACT.IMPERFECT_DESCRIPTION1" | translate }}
-      </p>
-      <hr />
-      <p class="mb-0">
-        {{ "PAGES.CONTACT.IMPERFECT_DESCRIPTION2" | translate }}
-      </p>
-    </div>
-  </div>
-  <div class="content-map col">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      version="1.1"
-      id="Capa_1"
-      x="0px"
-      y="0px"
-      viewBox="0 0 512 512"
-      style="enable-background: new 0 0 512 512;"
-      xml:space="preserve"
-      width="30px"
-      height="30px"
-      class=""
-    >
-      <g>
-        <g>
-          <g>
-            <path
-              d="M467,61H45C20.218,61,0,81.196,0,106v300c0,24.72,20.128,45,45,45h422c24.72,0,45-20.128,45-45V106    C512,81.28,491.872,61,467,61z M460.786,91L256.954,294.833L51.359,91H460.786z M30,399.788V112.069l144.479,143.24L30,399.788z     M51.213,421l144.57-144.57l50.657,50.222c5.864,5.814,15.327,5.795,21.167-0.046L317,277.213L460.787,421H51.213z M482,399.787    L338.213,256L482,112.212V399.787z"
-              data-original="#000000"
-              class="active-path"
-              data-old_color="#000000"
-              fill="var(--volare-principal)"
-            />
-          </g>
-        </g>
-      </g>
-    </svg>
-    <p class="title-contact">{{ "PAGES.CONTACT.EMAIL" | translate }}</p>
-    <p class="data-contact">{{ "PAGES.CONTACT.SHOW_EMAIL" | translate }}</p>
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      version="1.1"
-      id="Capa_1"
-      x="0px"
-      y="0px"
-      viewBox="0 0 512.006 512.006"
-      style="enable-background: new 0 0 512.006 512.006;"
-      xml:space="preserve"
-      width="512px"
-      height="512px"
-    >
-      <g>
-        <g>
+          <nb-card-header id="title-form">{{
+            "PAGES.CONTACT.TITLE" | translate
+          }}</nb-card-header>
+          <nb-card-body>
+            <p id="text-form">
+              {{ "PAGES.CONTACT.DESCRIPTION" | translate }}
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="{{ 'PAGES.CONTACT.NAME' | translate }}"
+                aria-label="Nombre"
+                id="input-name"
+                [(ngModel)]="message.name"
+                aria-describedby="basic-addon2"
+              />
+              <input
+                type="email"
+                class="form-control"
+                placeholder="{{ 'PAGES.CONTACT.EMAIL' | translate }}"
+                aria-label="Correo"
+                id="input-email"
+                [(ngModel)]="message.email"
+                aria-describedby="basic-addon2"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="{{ 'PAGES.CONTACT.SUBJECT' | translate }}"
+                aria-label="Asunto"
+                id="input-issue"
+                [(ngModel)]="message.issue"
+                aria-describedby="basic-addon2"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <textarea
+                type="text-area"
+                class="form-control"
+                placeholder="{{ 'PAGES.CONTACT.MESSAGE' | translate }}"
+                aria-label="Mensaje"
+                id="input-message"
+                [(ngModel)]="message.message"
+                aria-describedby="basic-addon2"
+              ></textarea>
+            </div>
+          </nb-card-body>
+          <nb-card-footer
+            ><button
+              (click)="sendEmail()"
+              type="button"
+              class="btn flat-button animated rubberBand"
+            >
+              {{ "PAGES.CONTACT.SEND" | translate }}
+            </button></nb-card-footer
+          >
+        </nb-card>
+        <div
+          class="alert alert-success"
+          id="alert-success"
+          role="alert"
+          style="display: none;"
+        >
+          <h4 class="alert-heading">
+            {{ "PAGES.CONTACT.PERFECT" | translate }}
+          </h4>
+          <p>
+            {{ "PAGES.CONTACT.PERFECT_DESCRIPTION1" | translate }}
+          </p>
+          <hr />
+          <p class="mb-0">
+            {{ "PAGES.CONTACT.PERFECT_DESCRIPTION2" | translate }}
+          </p>
+        </div>
+        <div
+          class="alert alert-danger"
+          id="alert-danger"
+          role="alert"
+          style="display: none;"
+        >
+          <h4 class="alert-heading">
+            {{ "PAGES.CONTACT.IMPERFECT" | translate }}
+          </h4>
+          <p>
+            {{ "PAGES.CONTACT.IMPERFECT_DESCRIPTION1" | translate }}
+          </p>
+          <hr />
+          <p class="mb-0">
+            {{ "PAGES.CONTACT.IMPERFECT_DESCRIPTION2" | translate }}
+          </p>
+        </div>
+      </div>
+      <div class="content-map col">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          id="Capa_1"
+          x="0px"
+          y="0px"
+          viewBox="0 0 512 512"
+          style="enable-background: new 0 0 512 512;"
+          xml:space="preserve"
+          width="30px"
+          height="30px"
+          class=""
+        >
           <g>
             <g>
-              <path
-                d="M502.05,407.127l-56.761-37.844L394.83,335.65c-9.738-6.479-22.825-4.355-30.014,4.873l-31.223,40.139     c-6.707,8.71-18.772,11.213-28.39,5.888c-21.186-11.785-46.239-22.881-101.517-78.23c-55.278-55.349-66.445-80.331-78.23-101.517     c-5.325-9.618-2.822-21.683,5.888-28.389l40.139-31.223c9.227-7.188,11.352-20.275,4.873-30.014l-32.6-48.905L104.879,9.956     C98.262,0.03,85.016-2.95,74.786,3.185L29.95,30.083C17.833,37.222,8.926,48.75,5.074,62.277     C-7.187,106.98-9.659,205.593,148.381,363.633s256.644,155.56,301.347,143.298c13.527-3.851,25.055-12.758,32.194-24.876     l26.898-44.835C514.956,426.989,511.976,413.744,502.05,407.127z"
-                data-original="#000000"
-                class="active-path"
-                data-old_color="#000000"
-                fill="var(--volare-principal)"
-              />
-              <path
-                d="M291.309,79.447c82.842,0.092,149.977,67.226,150.069,150.069c0,4.875,3.952,8.828,8.828,8.828     c4.875,0,8.828-3.952,8.828-8.828c-0.102-92.589-75.135-167.622-167.724-167.724c-4.875,0-8.828,3.952-8.828,8.828     C282.481,75.494,286.433,79.447,291.309,79.447z"
-                data-original="#000000"
-                class="active-path"
-                data-old_color="#000000"
-                fill="var(--volare-principal)"
-              />
-              <path
-                d="M291.309,132.412c53.603,0.063,97.04,43.501,97.103,97.103c0,4.875,3.952,8.828,8.828,8.828     c4.875,0,8.828-3.952,8.828-8.828c-0.073-63.349-51.409-114.686-114.759-114.759c-4.875,0-8.828,3.952-8.828,8.828     C282.481,128.46,286.433,132.412,291.309,132.412z"
-                data-original="#000000"
-                class="active-path"
-                data-old_color="#000000"
-                fill="var(--volare-principal)"
-              />
-              <path
-                d="M291.309,185.378c24.365,0.029,44.109,19.773,44.138,44.138c0,4.875,3.952,8.828,8.828,8.828     c4.875,0,8.828-3.952,8.828-8.828c-0.039-34.111-27.682-61.754-61.793-61.793c-4.875,0-8.828,3.952-8.828,8.828     C282.481,181.426,286.433,185.378,291.309,185.378z"
-                data-original="#000000"
-                class="active-path"
-                data-old_color="#000000"
-                fill="var(--volare-principal)"
-              />
+              <g>
+                <path
+                  d="M467,61H45C20.218,61,0,81.196,0,106v300c0,24.72,20.128,45,45,45h422c24.72,0,45-20.128,45-45V106    C512,81.28,491.872,61,467,61z M460.786,91L256.954,294.833L51.359,91H460.786z M30,399.788V112.069l144.479,143.24L30,399.788z     M51.213,421l144.57-144.57l50.657,50.222c5.864,5.814,15.327,5.795,21.167-0.046L317,277.213L460.787,421H51.213z M482,399.787    L338.213,256L482,112.212V399.787z"
+                  data-original="#000000"
+                  class="active-path"
+                  data-old_color="#000000"
+                  fill="var(--volare-principal)"
+                />
+              </g>
             </g>
           </g>
-        </g>
-      </g>
-    </svg>
-    <p class="title-contact">{{ "PAGES.CONTACT.PHONE" | translate }}</p>
-    <p class="data-contact">{{ "PAGES.CONTACT.SHOW_PHONE" | translate }}</p>
-    <div class="content-links">
-      <div class="content-links">
-        <a
-          class="circle-link"
-          title="Instagram"
-          href="https://www.instagram.com/volarecolombiasas/"
-          target="_blank"
-          rel="noopener"
+        </svg>
+        <p class="title-contact">{{ "PAGES.CONTACT.EMAIL" | translate }}</p>
+        <p class="data-contact">{{ "PAGES.CONTACT.SHOW_EMAIL" | translate }}</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          id="Capa_1"
+          x="0px"
+          y="0px"
+          viewBox="0 0 512.006 512.006"
+          style="enable-background: new 0 0 512.006 512.006;"
+          xml:space="preserve"
+          width="512px"
+          height="512px"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            version="1.1"
-            id="Capa_1"
-            x="0px"
-            y="0px"
-            viewBox="0 0 512 512"
-            style="enable-background: new 0 0 512 512;"
-            xml:space="preserve"
-          >
-            <linearGradient
-              id="SVGID_1_"
-              gradientUnits="userSpaceOnUse"
-              x1="-46.0041"
-              y1="634.1208"
-              x2="-32.9334"
-              y2="647.1917"
-              gradientTransform="matrix(32 0 0 -32 1519 20757)"
+          <g>
+            <g>
+              <g>
+                <g>
+                  <path
+                    d="M502.05,407.127l-56.761-37.844L394.83,335.65c-9.738-6.479-22.825-4.355-30.014,4.873l-31.223,40.139     c-6.707,8.71-18.772,11.213-28.39,5.888c-21.186-11.785-46.239-22.881-101.517-78.23c-55.278-55.349-66.445-80.331-78.23-101.517     c-5.325-9.618-2.822-21.683,5.888-28.389l40.139-31.223c9.227-7.188,11.352-20.275,4.873-30.014l-32.6-48.905L104.879,9.956     C98.262,0.03,85.016-2.95,74.786,3.185L29.95,30.083C17.833,37.222,8.926,48.75,5.074,62.277     C-7.187,106.98-9.659,205.593,148.381,363.633s256.644,155.56,301.347,143.298c13.527-3.851,25.055-12.758,32.194-24.876     l26.898-44.835C514.956,426.989,511.976,413.744,502.05,407.127z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="var(--volare-principal)"
+                  />
+                  <path
+                    d="M291.309,79.447c82.842,0.092,149.977,67.226,150.069,150.069c0,4.875,3.952,8.828,8.828,8.828     c4.875,0,8.828-3.952,8.828-8.828c-0.102-92.589-75.135-167.622-167.724-167.724c-4.875,0-8.828,3.952-8.828,8.828     C282.481,75.494,286.433,79.447,291.309,79.447z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="var(--volare-principal)"
+                  />
+                  <path
+                    d="M291.309,132.412c53.603,0.063,97.04,43.501,97.103,97.103c0,4.875,3.952,8.828,8.828,8.828     c4.875,0,8.828-3.952,8.828-8.828c-0.073-63.349-51.409-114.686-114.759-114.759c-4.875,0-8.828,3.952-8.828,8.828     C282.481,128.46,286.433,132.412,291.309,132.412z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="var(--volare-principal)"
+                  />
+                  <path
+                    d="M291.309,185.378c24.365,0.029,44.109,19.773,44.138,44.138c0,4.875,3.952,8.828,8.828,8.828     c4.875,0,8.828-3.952,8.828-8.828c-0.039-34.111-27.682-61.754-61.793-61.793c-4.875,0-8.828,3.952-8.828,8.828     C282.481,181.426,286.433,185.378,291.309,185.378z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="var(--volare-principal)"
+                  />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+        <p class="title-contact">{{ "PAGES.CONTACT.PHONE" | translate }}</p>
+        <p class="data-contact">{{ "PAGES.CONTACT.SHOW_PHONE" | translate }}</p>
+        <div class="content-links">
+          <div class="content-links">
+            <a
+              class="circle-link"
+              title="Instagram"
+              href="https://www.instagram.com/volarecolombiasas/"
+              target="_blank"
+              rel="noopener"
             >
-              <stop offset="0" style="stop-color: #ffc107;" />
-              <stop offset="0.507" style="stop-color: #f44336;" />
-              <stop offset="0.99" style="stop-color: #9c27b0;" />
-            </linearGradient>
-            <path
-              style="fill: url(#SVGID_1_);"
-              d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192  c88.352,0,160-71.648,160-160V160C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112  V160C48,98.24,98.24,48,160,48h192c61.76,0,112,50.24,112,112V352z"
-            />
-            <linearGradient
-              id="SVGID_2_"
-              gradientUnits="userSpaceOnUse"
-              x1="-42.2971"
-              y1="637.8279"
-              x2="-36.6404"
-              y2="643.4846"
-              gradientTransform="matrix(32 0 0 -32 1519 20757)"
-            >
-              <stop offset="0" style="stop-color: #ffc107;" />
-              <stop offset="0.507" style="stop-color: #f44336;" />
-              <stop offset="0.99" style="stop-color: #9c27b0;" />
-            </linearGradient>
-            <path
-              style="fill: url(#SVGID_2_);"
-              d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128  S326.688,128,256,128z M256,336c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80  C336,300.096,300.096,336,256,336z"
-            />
-            <linearGradient
-              id="SVGID_3_"
-              gradientUnits="userSpaceOnUse"
-              x1="-35.5456"
-              y1="644.5793"
-              x2="-34.7919"
-              y2="645.3331"
-              gradientTransform="matrix(32 0 0 -32 1519 20757)"
-            >
-              <stop offset="0" style="stop-color: #ffc107;" />
-              <stop offset="0.507" style="stop-color: #f44336;" />
-              <stop offset="0.99" style="stop-color: #9c27b0;" />
-            </linearGradient>
-            <circle
-              style="fill: url(#SVGID_3_);"
-              cx="393.6"
-              cy="118.4"
-              r="17.056"
-            />
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-            <g></g>
-          </svg>
-        </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Capa_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 512 512"
+                style="enable-background: new 0 0 512 512;"
+                xml:space="preserve"
+              >
+                <linearGradient
+                  id="SVGID_1_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="-46.0041"
+                  y1="634.1208"
+                  x2="-32.9334"
+                  y2="647.1917"
+                  gradientTransform="matrix(32 0 0 -32 1519 20757)"
+                >
+                  <stop offset="0" style="stop-color: #ffc107;" />
+                  <stop offset="0.507" style="stop-color: #f44336;" />
+                  <stop offset="0.99" style="stop-color: #9c27b0;" />
+                </linearGradient>
+                <path
+                  style="fill: url(#SVGID_1_);"
+                  d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192  c88.352,0,160-71.648,160-160V160C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112  V160C48,98.24,98.24,48,160,48h192c61.76,0,112,50.24,112,112V352z"
+                />
+                <linearGradient
+                  id="SVGID_2_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="-42.2971"
+                  y1="637.8279"
+                  x2="-36.6404"
+                  y2="643.4846"
+                  gradientTransform="matrix(32 0 0 -32 1519 20757)"
+                >
+                  <stop offset="0" style="stop-color: #ffc107;" />
+                  <stop offset="0.507" style="stop-color: #f44336;" />
+                  <stop offset="0.99" style="stop-color: #9c27b0;" />
+                </linearGradient>
+                <path
+                  style="fill: url(#SVGID_2_);"
+                  d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128  S326.688,128,256,128z M256,336c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80  C336,300.096,300.096,336,256,336z"
+                />
+                <linearGradient
+                  id="SVGID_3_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="-35.5456"
+                  y1="644.5793"
+                  x2="-34.7919"
+                  y2="645.3331"
+                  gradientTransform="matrix(32 0 0 -32 1519 20757)"
+                >
+                  <stop offset="0" style="stop-color: #ffc107;" />
+                  <stop offset="0.507" style="stop-color: #f44336;" />
+                  <stop offset="0.99" style="stop-color: #9c27b0;" />
+                </linearGradient>
+                <circle
+                  style="fill: url(#SVGID_3_);"
+                  cx="393.6"
+                  cy="118.4"
+                  r="17.056"
+                />
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+                <g></g>
+              </svg>
+            </a>
 
-        <a
-          class="circle-link"
-          title="Facebook"
-          href="https://www.facebook.com/Volarecolombiasas/?modal=admin_todo_tour"
-          target="_blank"
-          rel="noopener"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="512pt"
-            viewBox="0 0 512 512"
-            width="512pt"
-          >
-            <path
-              d="m483.738281 0h-455.5c-15.597656.0078125-28.24218725 12.660156-28.238281 28.261719v455.5c.0078125 15.597656 12.660156 28.242187 28.261719 28.238281h455.476562c15.605469.003906 28.257813-12.644531 28.261719-28.25 0-.003906 0-.007812 0-.011719v-455.5c-.007812-15.597656-12.660156-28.24218725-28.261719-28.238281zm0 0"
-              fill="#4267b2"
-            />
-            <path
-              d="m353.5 512v-198h66.75l10-77.5h-76.75v-49.359375c0-22.386719 6.214844-37.640625 38.316406-37.640625h40.683594v-69.128906c-7.078125-.941406-31.363281-3.046875-59.621094-3.046875-59 0-99.378906 36-99.378906 102.140625v57.035156h-66.5v77.5h66.5v198zm0 0"
-              fill="#fff"
-            />
-          </svg>
-        </a>
+            <a
+              class="circle-link"
+              title="Facebook"
+              href="https://www.facebook.com/Volarecolombiasas/?modal=admin_todo_tour"
+              target="_blank"
+              rel="noopener"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="512pt"
+                viewBox="0 0 512 512"
+                width="512pt"
+              >
+                <path
+                  d="m483.738281 0h-455.5c-15.597656.0078125-28.24218725 12.660156-28.238281 28.261719v455.5c.0078125 15.597656 12.660156 28.242187 28.261719 28.238281h455.476562c15.605469.003906 28.257813-12.644531 28.261719-28.25 0-.003906 0-.007812 0-.011719v-455.5c-.007812-15.597656-12.660156-28.24218725-28.261719-28.238281zm0 0"
+                  fill="#4267b2"
+                />
+                <path
+                  d="m353.5 512v-198h66.75l10-77.5h-76.75v-49.359375c0-22.386719 6.214844-37.640625 38.316406-37.640625h40.683594v-69.128906c-7.078125-.941406-31.363281-3.046875-59.621094-3.046875-59 0-99.378906 36-99.378906 102.140625v57.035156h-66.5v77.5h66.5v198zm0 0"
+                  fill="#fff"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+
+    <nb-chat
+      *ngFor="let chat of chats"
+      [title]="chat.title"
+      [status]="chat.status"
+      size="small"
+    >
+      <nb-chat-message
+        *ngFor="let msg of chat.messages"
+        [type]="msg.type"
+        [message]="msg.text"
+        [reply]="msg.reply"
+        [sender]="msg.user.name"
+        [date]="msg.date"
+        [files]="msg.files"
+        [avatar]="msg.user.avatar"
+      >
+      </nb-chat-message>
+      <nb-chat-form (send)="sendMessage(chat.messages, $event)"></nb-chat-form>
+    </nb-chat>
+  </nb-layout-column>
+</nb-layout>
