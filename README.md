@@ -1,10 +1,10 @@
 # Volare Colombia
-Página web para Volare Colombia S.A.S, proyecto encaminado a ofrecer planes turisticos, de deportes extremos y en pareja.
+Página web para Volare Colombia S.A.S.
+Proyecto encaminado a ofrecer planes turisticos que incluyen actividades extremas, campamentos, caminatas, excursiones y demás eventos en pareja.
 
-## Android - Java:
+## Home:
  ![GitHub](/img/main.jpg)
  
-Using:
 Using:
 * [x] [Angular](https://angular.io/)
 
